@@ -1,0 +1,9 @@
+<%= form_for @tweet do |f| %>
+<div class='form-group'>
+	<label>Contenu du tweet</label>
+	<%= f.text_field :content, class: 'form-control' %>
+</div>
+<div class='form-group'>
+	<%= f.submit "Poster le tweet" %>
+</div>
+<% end %>

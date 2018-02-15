@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'twitter'
 gem 'dotenv'
 gem 'devise'
 gem 'bcrypt'
@@ -14,6 +15,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
   gem 'rspec-rails', '~> 3.5'
